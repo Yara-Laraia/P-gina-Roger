@@ -1,0 +1,412 @@
+* {
+    margin: 0px;
+
+    font-family: "Noto Music";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    background: #131313;
+    font-family: "Noto Music";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/*cabeçario*/
+
+nav {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    border-color: #FAC002;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FAC002;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.navegar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #131313;
+    align-content: center;
+
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    color: white;
+    margin: 10px;
+
+}
+
+
+main {
+    margin: 10px;
+}
+
+
+
+/*inicio*/
+
+.roger {
+    display: flex;
+    align-items: center;
+    flex-direction: rom;
+    margin-bottom: 80px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-top: 80px;
+    font-size: 64px;
+}
+
+.inicio h2 {
+    display: flex;
+    justify-content: center;
+    background: #FAC002;
+    margin: 20px;
+    padding: 60px;
+    border-radius: 60px;
+   
+}
+
+#treinar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FAC002;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 60px;
+    color: #131313;
+
+}
+
+
+/*Como funciona?*/
+
+.funcionamento {
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.funcionamento h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.funcionamento ul li {
+    list-style-type: none;
+}
+
+.executar {
+    display: flex;
+    align-items: center;
+}
+
+.funcionamento ul li{
+    padding: 10px;
+}
+
+
+
+/*Serviços*/
+
+.serviços {
+    color: #FFFFFF;
+    margin-bottom: 80px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.serviços h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.trabalhos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #131313;
+    border: #FFFFFF solid;
+    background-color: #FFFFFF;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.trabalhos ul li {
+    list-style-type: none;
+}
+
+
+.trabalhos:nth-child(1) {
+    color: #177BD8;
+    border-radius: 30px;
+}
+
+.trabalhos:nth-child(2) {
+    color: #A07C04;
+    border-radius: 30px;
+}
+
+.trabalhos:nth-child(3) {
+    color: #004D11;
+    border-radius: 30px;
+}
+
+
+.treinoa {
+    border-color: #177BD8;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #177BD8;
+    color: #FFFFFF;
+}
+
+.treinob {
+    border: 1px solid;
+    color: #FFFFFF;
+    background-color: #A07C04;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.treinoc {
+
+    background-color: #004D11;
+    color: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+
+/*Quem é Roger?*/
+
+.quem {
+    background-color: #FAC002;
+    margin-bottom: 80px;
+}
+
+.quem h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.quem ul li {
+    list-style-type: none;
+}
+
+.listaroger {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+/*por que contratar?*/
+
+.contratar {
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.itens ul li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.itens img {
+    border: #FAC002 solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+
+/*obtenha resultados*/
+
+.obtenha {
+    margin-bottom: 80px;
+}
+
+
+.obtenha h2 {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.resultados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    border: #FAC002 solid;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    color: #131313;
+    margin: 30px;
+}
+
+.fotos p {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+}
+
+.depoimento {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/*cadastro*/
+
+.cadastro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+
+    background-image: url("Imagens/Retangulo cadastro.png");
+
+}
+
+.formulario {
+    border: 1px solid;
+    border-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*dúvidas frequentes*/
+
+.duvidas {
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+
+.listad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.listad ul li {
+    list-style-type: none;
+}
+
+.listad li {
+    margin: 10px;
+    border: #FAC002 solid;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.listad img {
+    border: #FAC002 solid;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 50px;
+}
+
+/*ainda com dúvidas*/
+
+.ainda {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+}
+
+.ainda p {
+    color: #131313;
+    border-radius: 30px;
+    border: #FAC002 solid;
+    padding: 10px;
+    background-color: #FAC002;
+}
+
+
+
+/*rodapé*/
+footer p {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#roger{
+    color: #131313;
+}
